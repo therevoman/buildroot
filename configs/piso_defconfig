@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Buildroot 2017.08-4143-g1af7bb331e-dirty Configuration
+# Buildroot 2017.08-4144-gd8891ae7af Configuration
 #
 BR2_HAVE_DOT_CONFIG=y
 BR2_HOST_GCC_AT_LEAST_4_9=y
@@ -400,7 +400,7 @@ BR2_TARGET_GENERIC_HOSTNAME="buildroot"
 BR2_TARGET_GENERIC_ISSUE="Welcome to Buildroot"
 BR2_TARGET_GENERIC_PASSWD_SHA256=y
 # BR2_TARGET_GENERIC_PASSWD_SHA512 is not set
-BR2_TARGET_GENERIC_PASSWD_METHOD="md5"
+BR2_TARGET_GENERIC_PASSWD_METHOD="sha-256"
 BR2_INIT_BUSYBOX=y
 # BR2_INIT_SYSV is not set
 # BR2_INIT_OPENRC is not set
@@ -2812,126 +2812,9 @@ BR2_PACKAGE_HOST_UTIL_LINUX=y
 # BR2_PACKAGE_HOST_XORRISO is not set
 # BR2_PACKAGE_HOST_ZIP is not set
 BR2_PACKAGE_HOST_ZSTD=y
-BR2_LEGACY=y
-
-#
-# Legacy detected: check the content of the menu below
-#
 
 #
 # Legacy config options
-#
-
-#
-# ----------------------------------------------------
-#
-
-#
-# Your old configuration uses legacy options that no  
-#
-
-#
-# longer exist in buildroot, as indicated in the menu 
-#
-
-#
-# below. As long as these options stay selected, or in
-#
-
-#
-# case of string options are non-empty, the build     
-#
-
-#
-# will fail.                                          
-#
-
-#
-# *                                                   
-#
-
-#
-# Where possible, an automatic conversion from old to 
-#
-
-#
-# new symbols has been performed. Before making any   
-#
-
-#
-# change in this legacy menu, make sure to exit the   
-#
-
-#
-# configuration editor a first time and save the      
-#
-
-#
-# configuration. Otherwise, the automatic conversion  
-#
-
-#
-# of symbols will be lost.                            
-#
-
-#
-# *                                                   
-#
-
-#
-# After this initial save, reopen the configuration   
-#
-
-#
-# editor, inspect the options selected below, read    
-#
-
-#
-# their help texts, and verify/update the new         
-#
-
-#
-# configuration in the corresponding configuration    
-#
-
-#
-# menus. When everything is ok, you can disable the   
-#
-
-#
-# legacy options in the menu below. Once you have     
-#
-
-#
-# disabled all legacy options, this text will         
-#
-
-#
-# disappear and you will be able to start the build.  
-#
-
-#
-# *                                                   
-#
-
-#
-# Note: legacy options older than 5 years have been   
-#
-
-#
-# removed, and configuration files that still have    
-#
-
-#
-# those options set, will fail to build, or run in    
-#
-
-#
-# unpredictable ways.                                 
-#
-
-#
-# ----------------------------------------------------
 #
 
 #
@@ -3069,7 +2952,7 @@ BR2_TOOLCHAIN_EXTRA_EXTERNAL_LIBS=""
 # BR2_PACKAGE_ODROID_SCRIPTS is not set
 # BR2_PACKAGE_ODROID_MALI is not set
 # BR2_PACKAGE_KODI_PLATFORM_AML is not set
-BR2_GCC_VERSION_6_X=y
+# BR2_GCC_VERSION_6_X is not set
 # BR2_GCC_VERSION_4_9_X is not set
 # BR2_GDB_VERSION_7_12 is not set
 # BR2_PACKAGE_XAPP_MKFONTDIR is not set
@@ -3091,7 +2974,7 @@ BR2_GCC_VERSION_6_X=y
 # BR2_PACKAGE_LIBUMP is not set
 # BR2_PACKAGE_SUNXI_MALI is not set
 # BR2_BINUTILS_VERSION_2_29_X is not set
-BR2_BINUTILS_VERSION_2_28_X=y
+# BR2_BINUTILS_VERSION_2_28_X is not set
 # BR2_PACKAGE_GST_PLUGINS_BAD_PLUGIN_APEXSINK is not set
 
 #
@@ -3113,7 +2996,7 @@ BR2_BINUTILS_VERSION_2_28_X=y
 # BR2_PACKAGE_FFTW_PRECISION_DOUBLE is not set
 # BR2_PACKAGE_FFTW_PRECISION_LONG_DOUBLE is not set
 # BR2_PACKAGE_LUA_5_2 is not set
-BR2_TARGET_GENERIC_PASSWD_MD5=y
+# BR2_TARGET_GENERIC_PASSWD_MD5 is not set
 
 #
 # Legacy options removed in 2018.11
